@@ -127,7 +127,16 @@ body {
 			}
 		}
 	}
+	.attribution{
+		color:$darker-violet;
+		a{
+			@include global-a;
+			margin: initial;
+			font-weight: bold;
+		}
+	}
 }
+
 // hamburger menu
 .hamburger {
 	display: none;

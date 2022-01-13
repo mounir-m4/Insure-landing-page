@@ -726,6 +726,25 @@ body {
 .main-footer .menus ul a:hover {
   border-bottom: 1px solid #2b272f;
 }
+.main-footer .attribution {
+  color: #2b272f;
+}
+.main-footer .attribution a {
+  color: #2b272f;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 0.8rem;
+  letter-spacing: 0.6px;
+  margin: 0 1rem;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  padding-bottom: 0.1rem;
+  margin: initial;
+  font-weight: bold;
+}
+.main-footer .attribution a:hover {
+  border-bottom: 1px solid #2b272f;
+}
 
 .hamburger {
   display: none;
